@@ -6,3 +6,4 @@ class Solution:
             ind = bisect.bisect_left(numbers,expected,i+1)
             if ind < len(numbers) and numbers[ind] == expected:
                 return [i+1,ind+1]
+            
